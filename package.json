@@ -1,0 +1,16 @@
+{
+  "name": "cultural-signal-bot",
+  "version": "1.0.0",
+  "description": "Slack bot that analyzes cultural signals using Claude and stores them in Airtable",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@slack/bolt": "^4.1.0",
+    "airtable": "^0.12.2",
+    "axios": "^1.7.0"
+  }
+}
